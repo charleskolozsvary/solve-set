@@ -2,4 +2,3 @@ streamlit
 numpy 
 opencv-python-headless
 scikit-learn
-set_solver
