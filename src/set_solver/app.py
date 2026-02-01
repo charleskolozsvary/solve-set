@@ -3,9 +3,8 @@ import streamlit as st
 import numpy as np
 from PIL import Image
 from PIL import ImageOps
-import find
+import set_solver.find as find
 import time
-#current link to view this script via streamlit: https://setcardgamesolver-cqcwmbfqnrgtv4ohvo4uk8.streamlit.app/
 
 def solve(img):
     return find.find_sets(img)

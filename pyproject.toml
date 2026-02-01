@@ -1,0 +1,28 @@
+[project]
+authors = [{name = "Charles Kolozsvary", email = "charleskolozsvary@gmail.com"}]
+dependencies = []
+name = "set-solver"
+requires-python = ">= 3.11"
+version = "0.1.0"
+
+[build-system]
+build-backend = "hatchling.build"
+requires = ["hatchling"]
+
+[tool.pixi.workspace]
+channels = ["conda-forge"]
+platforms = ["osx-arm64"]
+
+[tool.pixi.pypi-dependencies]
+set_solver = { path = ".", editable = true }
+
+[tool.pixi.tasks]
+
+[tool.pixi.dependencies]
+python = "3.12.*"
+opencv = ">=4.13.0,<5"
+numpy = ">=2.4.1,<3"
+scikit-learn = ">=1.8.0,<2"
+streamlit = ">=1.53.1,<2"
+ptpython = ">=3.0.32,<4"
+flask = ">=3.1.2,<4"

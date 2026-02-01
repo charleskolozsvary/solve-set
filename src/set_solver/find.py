@@ -1,8 +1,8 @@
 '''
 Given basic card information, find the sets
 '''
-import extract
-import identify
+import set_solver.extract as extract
+import set_solver.identify as identify
 import cv2 as cv
 import itertools
 import streamlit as st

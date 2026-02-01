@@ -1,9 +1,13 @@
-from extract import *
+## from extract import * ## need to find out what exactly we were using from import...
+
 from sklearn.cluster import KMeans
 from statistics import median
 import streamlit as st
 import numpy as np
 import time
+
+import cv2 as cv
+import statistics
 
 MAX_TIME = 20
 
