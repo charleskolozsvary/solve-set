@@ -38,6 +38,6 @@ Finally, here are all 5 sets highlited:
 
 [^1]: I'm happy with this program's success rate---it has identified cards correctly each time I've used it---but there's definitely room for improvement. If the image resolution is low, lighting is poor, cards are touching or obscurred, or glare is prevalent, the cards will likely not be identified correctly (and so neither will the sets).
 
-[^2]: You can also the web app's printed-page output for this example at [tests/exampleoutput.pdf](./tests/exampleoutput.pdf).
+[^2]: You can also the web app's printed-page output for this example at [tests/exampleoutput.pdf](https://github.com/charleskolozsvary/solve-set/blob/main/tests/exampleoutput.pdf).
 
 
