@@ -14,7 +14,7 @@ Here's an image with some sets:
 <img src='tests/test.jpg' width='800'>
 
 ### Identifying features
-Every card has four different features, each of which have three varieties. 
+Every card has four different features, each of which has three varieties. 
 
 | color   |  shape     | number | filling |
 | ------- | ---------- | ------ | ------- |
